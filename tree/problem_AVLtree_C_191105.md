@@ -10,19 +10,21 @@
 
 - AVL트리 시간복잡도 : 검색,삽입,삭제 모두 O(log n)의 시간복잡도를 기대할 수 있다.
 
+- 모든 노드의 왼쪽과 오른쪽 서브트리의 높이 차이가 1 이하여야 균형이 맞는 트리이다.
+
 - < Single Rotation>
 
   (LL)
 
     <img src="image/singleRotation_LL3.jpg" width="100%">
 
-  > LL : 왼쪽은 차이가 2이고 오른쪽은 0이므로 왼쪽이 균형이 무너짐 -> 오른쪽으로 회전
+  > LL : 왼쪽은 height 차이가 2이고 오른쪽은 0이므로 왼쪽이 균형이 무너짐 -> 오른쪽으로 회전
 
   (RR)
 
     <img src="image/singleRotation_RR.jpg" width="100%">
 
-  > RR : 왼쪽은 차이가 0이고 오른쪽은 2이므로 오른쪽이 균형이 무너짐 -> 왼쪽으로 회전
+  > RR : 왼쪽은 height 차이가 0이고 오른쪽은 2이므로 오른쪽이 균형이 무너짐 -> 왼쪽으로 회전
 
 
     < Double Rotation>
