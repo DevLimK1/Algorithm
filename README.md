@@ -22,5 +22,5 @@
 
 # 알고리즘 분류
 
-- ## [stack](https://github.com/DevLimK1/Algorithm/tree/master/stack)
-- ## [tree](https://github.com/DevLimK1/Algorithm/tree/master/tree)
+- ### [stack](https://github.com/DevLimK1/Algorithm/tree/master/stack)
+- ### [tree](https://github.com/DevLimK1/Algorithm/tree/master/tree)
