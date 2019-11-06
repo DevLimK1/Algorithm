@@ -29,7 +29,7 @@
 
 ## JAVA
 
-> ### <Split함수를 활용하여 단어를 String배열에 한글자씩 저장>
+> ### [Split함수를 활용하여 단어를 String배열에 한글자씩 저장]
 >
 > ```java
 > String word = "POWER"; //스트링 문자 POWER
@@ -44,7 +44,7 @@
 
 ---
 
-> ### <charAt 함수를 활용하여 단어를 char배열에 한글자씩 저장>
+> ### [charAt 함수를 활용하여 단어를 char배열에 한글자씩 저장]
 >
 > ```java
 > String word = "POWER"; //스트링 문자 POWER
@@ -56,11 +56,11 @@
 > }
 > ```
 
----
-
 <!-- https://coding-factory.tistory.com/73 -->
 
-> ### <BufferedReader>
+---
+
+> ### [BufferedReader]
 >
 > - Scanner를 통해 입력을 받을경우 Space Enter를 모두 경계로 인식해서 데이터를 입력받음
 > - BufferedReader는 Enter만 경계로 인식하고 받은 데이터가 String으로 고정됨
@@ -75,7 +75,7 @@
 > > -> readLine()시 리턴값을 String으로 고정되기에 String이 아닌 다른타입으로 입력을 받을려면 형변환을 해주어야한다.<br>
 > > -> 예외 처리를 꼭 해줘야한다. readLine()을 할때마다 try & catch를 활용하여 예외처리를 해주어도 되지만 대개 throws IOException을 통하여 작업
 >
-> ### <BufferedWriter>
+> ### [BufferedWriter]
 >
 > ```java
 > BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));//선언
