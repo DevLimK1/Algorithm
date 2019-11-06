@@ -73,7 +73,7 @@
 > ```
 >
 > > -> readLine()시 리턴값을 String으로 고정되기에 String이 아닌 다른타입으로 입력을 받을려면 형변환을 해주어야한다.<br>
-> > -> 예외 처리를 꼭 해줘야한다. readLine()을 할때마다 try & catch를 활용하여 예외처리를 해주어도 되지만 대개 throws IOException을 통하여 작업
+> > -> 예외 처리를 꼭 해줘야한다. readLine()을 할때마다 try & catch를 활용하여 예외처리를 해주어도 되지만 대개 throws IOException을 통하여 작업 **_(public static void main(String[] args) throws IOException)_**
 >
 > ### [BufferedWriter]
 >
