@@ -16,9 +16,13 @@
     [알고리즘 분류: tree](https://github.com/DevLimK1/Algorithm/tree/master/tree)
 
 - 2019-11-06
+
   - [problem_9012_java_191106.md](https://github.com/DevLimK1/Algorithm/blob/master/stack/problem_9012_java_191106.md) : 백준 온라인저지 9012번 - 괄호
     [https://www.acmicpc.net/problem/9012]<br>
     [알고리즘 분류: stack](https://github.com/DevLimK1/Algorithm/tree/master/stack)
+
+- 2019-11-07
+  -
 
 # 알고리즘 분류
 
@@ -41,6 +45,8 @@
 >    System.out.println(array_word[i]);
 > }
 > ```
+>
+> 활용 문제: [problem_9012_java](https://github.com/DevLimK1/Algorithm/blob/master/stack/problem_9012_java_191106.md) , [problem_9093_java](https://github.com/DevLimK1/Algorithm/blob/master/stack/problem_9093_java.md)
 
 ---
 
@@ -75,6 +81,8 @@
 > > -> readLine()시 리턴값을 String으로 고정되기에 String이 아닌 다른타입으로 입력을 받을려면 형변환을 해주어야한다.<br>
 > > -> 예외 처리를 꼭 해줘야한다. readLine()을 할때마다 try & catch를 활용하여 예외처리를 해주어도 되지만 대개 throws IOException을 통하여 작업 **_(public static void main(String[] args) throws IOException)_**
 >
+> 활용 예제: [problem_9012_java](https://github.com/DevLimK1/Algorithm/blob/master/stack/problem_9012_java_191106.md) , [problem_9093_java](https://github.com/DevLimK1/Algorithm/blob/master/stack/problem_9093_java.md)
+>
 > ### [BufferedWriter]
 >
 > ```java
@@ -87,7 +95,30 @@
 >
 > > -> BufferedWriter 의 경우 버퍼를 잡아 놓았기 때문에 반드시 flush()/ close() 를 반드시 호출해 주어 뒤처리를 해주어야한다.<br>
 > > -> bw.write에는 System.out.println();과 같이 자동개행기능이 없기때문에 개행을 해주어야할 경우에는 \n를 통해 따로 처리해주어야한다.
+>
+> 활용 예제: [problem_9093_java.md](https://github.com/DevLimK1/Algorithm/blob/master/stack/problem_9093_java.md)
 
 <!-- https://coding-factory.tistory.com/251 -->
+
+---
+
+> ### [String에 문자를 덧붙일 때 String + String 말고 StringBuilder를 사용하자]
+>
+> - String에 +=을 하는 건 기존 String의 내용에 뒤의 String의 내용을 이어붙인 새로운 문자열을 만들어서 담고, 원래의 문자열은 더 참조하는 레퍼런스가 없으면 GC에 들어감
+> - 버려진 문자열이 정확히 언제 메모리에서 완전히 해제되는지는 모르겠지만, 그 전까지는 계속 메모리상에 누적되어 큰 용량을 차지함
+> - 문자열을 길게 계속 이어붙이려면 StringBuilder를 사용하는게 성능면에서 좋음
+>
+> ```java
+> StringBuilder sb=new StringBuilder();
+> sb.append("A");
+> sb.append("B");
+> System.out.println(sb);
+>
+> 결과:
+> AB
+> ```
+
+<!-- https://hardlearner.tistory.com/288 -->
+<!-- https://www.acmicpc.net/board/view/37647 -->
 
 ---
