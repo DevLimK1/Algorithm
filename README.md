@@ -22,7 +22,9 @@
     [알고리즘 분류: stack](https://github.com/DevLimK1/Algorithm/tree/master/stack)
 
 - 2019-11-07
-  -
+  - [problem_1874_java_191107.md](https://github.com/DevLimK1/Algorithm/blob/master/stack/problem_1874_java_191107.md) : 백준 온라인저지 1874번 - 스택 수열 <br>
+    [https://www.acmicpc.net/problem/1874]<br>
+    [알고리즘 분류: stack](https://github.com/DevLimK1/Algorithm/tree/master/stack)
 
 # 알고리즘 분류
 
@@ -61,6 +63,8 @@
 > 	System.out.println(array_word[i]); //출력
 > }
 > ```
+>
+> 활용 예제:[problem_1874_java_191107.md](https://github.com/DevLimK1/Algorithm/blob/master/stack/problem_1874_java_191107.md)
 
 <!-- https://coding-factory.tistory.com/73 -->
 
@@ -117,6 +121,8 @@
 > 결과:
 > AB
 > ```
+>
+> 활용 예제:[problem_1874_java_191107.md](https://github.com/DevLimK1/Algorithm/blob/master/stack/problem_1874_java_191107.md)
 
 <!-- https://hardlearner.tistory.com/288 -->
 <!-- https://www.acmicpc.net/board/view/37647 -->
