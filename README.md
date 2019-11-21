@@ -1,4 +1,12 @@
-# 문제 목록
+# 목차
+
+- [문제 목록](#문제-목록)
+- [알고리즘 분류](#알고리즘-분류)
+- [문법](#문법)
+
+---
+
+## [문제 목록]
 
 - 2019-10-30
   - [problem_9093_java.md](https://github.com/DevLimK1/Algorithm/blob/master/stack/problem_9093_java.md) : 백준 온라인저지 9093번 - 단어뒤집기 [https://www.acmicpc.net/problem/9093]<br>
@@ -22,18 +30,33 @@
     [알고리즘 분류: stack](https://github.com/DevLimK1/Algorithm/tree/master/stack)
 
 - 2019-11-07
+
   - [problem_1874_java_191107.md](https://github.com/DevLimK1/Algorithm/blob/master/stack/problem_1874_java_191107.md) : 백준 온라인저지 1874번 - 스택 수열 <br>
     [https://www.acmicpc.net/problem/1874]<br>
     [알고리즘 분류: stack](https://github.com/DevLimK1/Algorithm/tree/master/stack)
 
-# 알고리즘 분류
+- 2019-11-21
+  - [problem_graphAdjacencyList_C.md](https://github.com/DevLimK1/Algorithm/blob/master/graph/problem_graphAdjacencyList_C.md) : Graph AdjacencyList(무방향그래프 인접리스트) 문제 [학교 알고리즘 실습문제] <br>
+    [알고리즘 분류 : graph](https://github.com/DevLimK1/Algorithm/tree/master/graph)
+  - [problem_graphAdjacencyMatrix_C.md](https://github.com/DevLimK1/Algorithm/blob/master/graph/problem_graphAdjacencyMatrix_C.md) : Graph AdjacencyMatrix(무방향그래프 인접행렬) 문제 [학교 알고리즘 실습문제] <br>
+    [알고리즘 분류 : graph](https://github.com/DevLimK1/Algorithm/tree/master/graph)
 
-- ### [stack](https://github.com/DevLimK1/Algorithm/tree/master/stack)
-- ### [tree](https://github.com/DevLimK1/Algorithm/tree/master/tree)
+---
 
-# 문법
+## [알고리즘 분류]
 
-## JAVA
+- #### [stack](https://github.com/DevLimK1/Algorithm/tree/master/stack)
+- #### [tree](https://github.com/DevLimK1/Algorithm/tree/master/tree)
+- #### [graph](https://github.com/DevLimK1/Algorithm/tree/master/graph)
+
+---
+
+## [문법]
+
+- [JAVA](#<JAVA>)
+- [C](#<C>)
+
+## `<JAVA>`
 
 > ### [Split함수를 활용하여 단어를 String배열에 한글자씩 저장]
 >
@@ -128,3 +151,40 @@
 <!-- https://www.acmicpc.net/board/view/37647 -->
 
 ---
+
+## `<C>`
+
+> ### [2차원배열 동적할당]
+>
+> ```C
+> int matrix**; //2차원 배열선언
+> matrix = (int **)malloc(sizeof(int *)*(max_vertex+1));//인접행렬 메모리 할당
+>
+> for (i = 0; i <= max_vertex; i++) {
+>   matrix[i] = (int *)malloc(sizeof(int)*(max_vertex+1));//i행 메모리 할당
+>    }
+>
+> ```
+>
+> 활용 예제:[problem_graphAdjacencyMatrix_C.md](https://github.com/DevLimK1/Algorithm/blob/master/graph/problem_graphAdjacencyMatrix_C.md)
+
+---
+
+> ### [memset함수]
+>
+> - 어떤 메모리의 시작점부터 연속된 범위를 어떤 값으로(바이트 단위) 모두 지정하고 싶을 때 사용하는 함수
+>
+> ```C
+> void * memset(void *ptr,int value,size_t num);
+> ```
+>
+> `->` _ptr_: 채우고자 하는 메모리의 시작 포인터(시작주소)<br> `->` _value_: 메모리에 채우고하는 값 (int형이지만 내부에서는 unsigned char(1byte)로 변환되어서 저장됨)<br> `->` _num_: 채우고자 하는 바이트의 수(메모리의 크기)
+>
+> ```C
+> for (i = 0; i <= max_vertex; i++) {
+>   graph->matrix[i] = (int *)malloc(sizeof(int)*(max_vertex+1));//i행 메모리 할당
+>   memset(graph->matrix[i], 0, sizeof(int)*(max_vertex+1)); //메모리 0으로 초기화
+> }
+> ```
+>
+> 활용 예제:[problem_graphAdjacencyMatrix_C.md](https://github.com/DevLimK1/Algorithm/blob/master/graph/problem_graphAdjacencyMatrix_C.md)
