@@ -65,7 +65,35 @@
 
 ## `<JAVA>`
 
+> ### [nextLine()을 활용한 개행문자 제거]
+>
+> ```java
+>    Scanner sc = new Scanner(System.in);
+>    int cmdSize = sc.nextInt(); // 첫 줄 입력 사이즈
+>    sc.nextLine(); //nextInt()에서 발생하는 개행문자 제거
+> ```
+>
+> 활용 예제:[Deque_Baekjoon-10866](https://github.com/DevLimK1/TIL/blob/master/Algorithm/Deque/Deque_Baekjoon-10866.md)
+
+---
+
 > ### [Split함수를 활용하여 단어를 String배열에 한글자씩 저장]
+>
+> ```java
+>  String line = sc.nextLine(); //문자열 입력
+>  String[] s = line.split(" "); //스페이스로 문자열 구분해서 배열에 입력
+>  String cmd = s[0]; // cmd<-문자열 입력 부분
+> ```
+>
+> > ![img](image/dequeimg2.JPG) <br>
+> >
+> > -> "push_fornt 2" 라고 입력했을 때 스페이스로 문자열을 구분해서 String 배열에 입력된다.<br>
+>
+> 활용 문제:[Deque_Baekjoon-10866](https://github.com/DevLimK1/TIL/blob/master/Algorithm/Deque/Deque_Baekjoon-10866.md)
+
+---
+
+> ### [Split함수를 활용하여 단어를 String배열에 한글자씩 저장2]
 >
 > ```java
 > String word = "POWER"; //스트링 문자 POWER
@@ -106,12 +134,12 @@
 > - BufferedReader는 Enter만 경계로 인식하고 받은 데이터가 String으로 고정됨
 > - 많은 양의 데이터를 입력받은 경우 BufferedReader를 통해 입력받는 것이 작업속도가 빠름
 >
-> ```java
-> BufferedReader bf = new BufferedReader(new InputStreamReader(System.in)); //선언
-> String s = bf.readLine(); //String
-> int i = Integer.parseInt(bf.readLine()); //Int
-> ```
->
+> > ```java
+> > BufferedReader bf = new BufferedReader(new InputStreamReader(System.in)); //선언
+> > String s = bf.readLine(); //String
+> > int i = Integer.parseInt(bf.readLine()); //Int
+> > ```
+> >
 > > -> readLine()시 리턴값을 String으로 고정되기에 String이 아닌 다른타입으로 입력을 받을려면 형변환을 해주어야한다.<br>
 > > -> 예외 처리를 꼭 해줘야한다. readLine()을 할때마다 try & catch를 활용하여 예외처리를 해주어도 되지만 대개 throws IOException을 통하여 작업 **_(public static void main(String[] args) throws IOException)_**
 >
@@ -119,14 +147,14 @@
 >
 > ### [BufferedWriter]
 >
-> ```java
-> BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));//선언
-> String s = "abcdefg";//출력할 문자열
-> bw.write(s+"\n");//출력
-> bw.flush();//남아있는 데이터를 모두 출력시킴
-> bw.close();//스트림을 닫음
-> ```
->
+> > ```java
+> > BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));//선언
+> > String s = "abcdefg";//출력할 문자열
+> > bw.write(s+"\n");//출력
+> > bw.flush();//남아있는 데이터를 모두 출력시킴
+> > bw.close();//스트림을 닫음
+> > ```
+> >
 > > -> BufferedWriter 의 경우 버퍼를 잡아 놓았기 때문에 반드시 flush()/ close() 를 반드시 호출해 주어 뒤처리를 해주어야한다.<br>
 > > -> bw.write에는 System.out.println();과 같이 자동개행기능이 없기때문에 개행을 해주어야할 경우에는 \n를 통해 따로 처리해주어야한다.
 >
@@ -181,11 +209,11 @@
 >
 > - 어떤 메모리의 시작점부터 연속된 범위를 어떤 값으로(바이트 단위) 모두 지정하고 싶을 때 사용하는 함수
 >
-> ```C
-> void * memset(void *ptr,int value,size_t num);
-> ```
->
-> `->` _ptr_: 채우고자 하는 메모리의 시작 포인터(시작주소)<br> `->` _value_: 메모리에 채우고하는 값 (int형이지만 내부에서는 unsigned char(1byte)로 변환되어서 저장됨)<br> `->` _num_: 채우고자 하는 바이트의 수(메모리의 크기)
+> > ```C
+> > void * memset(void *ptr,int value,size_t num);
+> > ```
+> >
+> > `->` _ptr_: 채우고자 하는 메모리의 시작 포인터(시작주소)<br> `->` _value_: 메모리에 채우고하는 값 (int형이지만 내부에서는 unsigned char(1byte)로 변환되어서 저장됨)<br> `->` _num_: 채우고자 하는 바이트의 수(메모리의 크기)
 >
 > ```C
 > for (i = 0; i <= max_vertex; i++) {
@@ -195,3 +223,5 @@
 > ```
 >
 > 활용 예제:[problem_graphAdjacencyMatrix_C.md](https://github.com/DevLimK1/Algorithm/blob/master/graph/problem_graphAdjacencyMatrix_C.md)
+
+---
