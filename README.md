@@ -46,10 +46,14 @@
     [알고리즘 분류 : graph](https://github.com/DevLimK1/Algorithm/tree/master/graph)
 
 - 2019-11-22
+
   - [problem_graphAdjacencyListDFS_C.md](https://github.com/DevLimK1/Algorithm/blob/master/graph/problem_graphAdjacencyListDFS_C.md) : Graph AdjacencyList DFS(무방향그래프 인접리스트 깊이 우선 탐색) 문제 [학교 알고리즘 실습문제] <br>
     [알고리즘 분류 : graph](https://github.com/DevLimK1/Algorithm/tree/master/graph)
   - [problem_graphAdjacencyMatrixBFS_C.md](https://github.com/DevLimK1/Algorithm/blob/master/graph/problem_graphAdjacencyListBFS_C.md) : Graph AdjacencyMatrix BFS(무방향그래프 인접행렬 너비 우선 탐색) 문제 [학교 알고리즘 실습문제] <br>
     [알고리즘 분류 : graph](https://github.com/DevLimK1/Algorithm/tree/master/graph)
+
+- 2020-03-03
+  - baekjoon : 2557, 1000, 2558, 10950, [10951](https://github.com/DevLimK1/Algorithm/blob/master/baekjoon/10951.md)
 
 ---
 
@@ -58,6 +62,7 @@
 - #### [stack](https://github.com/DevLimK1/Algorithm/tree/master/stack)
 - #### [tree](https://github.com/DevLimK1/Algorithm/tree/master/tree)
 - #### [graph](https://github.com/DevLimK1/Algorithm/tree/master/graph)
+- #### 입출력 : [백준\_10951](https://github.com/DevLimK1/Algorithm/blob/master/baekjoon/10951.md)
 
 ---
 
@@ -187,6 +192,41 @@
 
 <!-- https://hardlearner.tistory.com/288 -->
 <!-- https://www.acmicpc.net/board/view/37647 -->
+
+---
+
+> ### [EOF 처리 -> Scanner , BufferedReader 클래스]
+>
+> - 컴퓨팅에서, **파일 끝(End of File, EOF)** 는 데이터 소스로부터 더 이상 읽을 수 있는 데이터가 없음을 나타낸다.
+> - 주로 _입력 부분의 기준이 없는 문제_ 에서 사용
+>
+> ```java
+> <Scanner 클래스>
+>
+> Scanner sc = new Scanner(System.in);
+>
+> while(sc.hasNextLine()) {
+> sc.nextLine();
+> }
+>
+> while(sc.hasNextInt()) {
+> sc.nextInt();
+> }
+> ```
+>
+> ```java
+> <BufferedReader 클래스>
+>
+> BufferedReader br = new BufferedReader(new InputStreamReader(System.in);
+>
+> String input = "";
+>
+> while((input = br.readLine()) != null) {
+> //......
+> }
+> ```
+>
+> 활용 예제:[baekjoon_10951](https://github.com/DevLimK1/Algorithm/blob/master/baekjoon/10951.md)
 
 ---
 
