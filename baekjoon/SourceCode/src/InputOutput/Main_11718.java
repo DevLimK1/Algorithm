@@ -31,8 +31,8 @@ public class Main_11718 {
 		String string;
 		
 		while(scanner.hasNextLine()) {
-//			string=;
-			System.out.println(scanner.nextLine());
+			string=scanner.nextLine();
+			System.out.println(string);
 		}
 	}
 }
