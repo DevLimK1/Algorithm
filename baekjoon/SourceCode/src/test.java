@@ -1,12 +1,34 @@
 import java.util.Scanner;
 
+/*
+입력)
+3 29 38 12 57 74 40 85 61
+*/
 public class test {
 	public static void main(String[] args) {
-		Scanner scanner=new Scanner(System.in);
-		int num=scanner.nextInt();
-		
-		for(int i=1;i<=9;i++) {
-			System.out.printf("%d * %d = %d%n",num,i,num*i);
+		//별이 코드 리뷰
+		Scanner scan = new Scanner(System.in);
+		int nums = scan.nextInt();
+		int[] count = new int[nums];
+		for (int i = 0; i < nums; i++) {
+			count[i] = scan.nextInt();
 		}
+		
+		//밑에 부분에서 동일한 코드인 for문을 지우고 
+		//if - else if 로 해서 간결하게 쓸 수 있음!
+		int max = count[0];
+		int min = count[0];
+		for (int i = 0; i < nums; i++) {
+			if (max < count[i]) {
+				max = count[i];
+			}else if(min>count[i]) {
+				min=count[i];
+			}
+			
+		}
+		
+		System.out.println("최대값 :" + max);
+		System.out.println("최소값 :" + min);
+
 	}
 }
