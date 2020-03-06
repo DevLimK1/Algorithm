@@ -75,3 +75,7 @@ Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String ind
 >String string=scanner.nextLine(); // 문자열 5로 입력받고
 > int size= Integer.parseInt(string); // 문자열 5를 int형으로 변환
 
+# 소스코드(java)
+
+[baekjoon/SourceCode/InputOutput/Main_10953](https://github.com/DevLimK1/Algorithm/blob/master/baekjoon/SourceCode/src/InputOutput/Main_10953.java)
+
