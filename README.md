@@ -20,36 +20,48 @@
 
   - [problem_AVLtree_C(except removeTree).md](<https://github.com/DevLimK1/Algorithm/blob/master/tree/problem_AVLtree_C(except%20removeTree)191102.md>) : AVL-tree(균형트리) 문제 (except removeTree) [학교 알고리즘 실습문제]<br>
     [알고리즘 분류: tree](https://github.com/DevLimK1/Algorithm/tree/master/tree)
+
 - 2019-11-05
 
   - [problem_AVLtree_C_191105.md](https://github.com/DevLimK1/Algorithm/blob/master/tree/problem_AVLtree_C_191105.md) : AVL-tree(균형트리) 문제 [학교 알고리즘 실습문제] <br>
     [알고리즘 분류: tree](https://github.com/DevLimK1/Algorithm/tree/master/tree)
+
 - 2019-11-06
 
   - [problem_9012_java_191106.md](https://github.com/DevLimK1/Algorithm/blob/master/stack/problem_9012_java_191106.md) : 백준 온라인저지 9012번 - 괄호
     [https://www.acmicpc.net/problem/9012]<br>
     [알고리즘 분류: stack](https://github.com/DevLimK1/Algorithm/tree/master/stack)
+
 - 2019-11-07
 
   - [problem_1874_java_191107.md](https://github.com/DevLimK1/Algorithm/blob/master/stack/problem_1874_java_191107.md) : 백준 온라인저지 1874번 - 스택 수열 <br>
     [https://www.acmicpc.net/problem/1874]<br>
     [알고리즘 분류: stack](https://github.com/DevLimK1/Algorithm/tree/master/stack)
+
 - 2019-11-21
 
   - [problem_graphAdjacencyList_C.md](https://github.com/DevLimK1/Algorithm/blob/master/graph/problem_graphAdjacencyList_C.md) : Graph AdjacencyList(무방향그래프 인접리스트) 문제 [학교 알고리즘 실습문제] <br>
     [알고리즘 분류 : graph](https://github.com/DevLimK1/Algorithm/tree/master/graph)
   - [problem_graphAdjacencyMatrix_C.md](https://github.com/DevLimK1/Algorithm/blob/master/graph/problem_graphAdjacencyMatrix_C.md) : Graph AdjacencyMatrix(무방향그래프 인접행렬) 문제 [학교 알고리즘 실습문제] <br>
     [알고리즘 분류 : graph](https://github.com/DevLimK1/Algorithm/tree/master/graph)
+
 - 2019-11-22
 
   - [problem_graphAdjacencyListDFS_C.md](https://github.com/DevLimK1/Algorithm/blob/master/graph/problem_graphAdjacencyListDFS_C.md) : Graph AdjacencyList DFS(무방향그래프 인접리스트 깊이 우선 탐색) 문제 [학교 알고리즘 실습문제] <br>
     [알고리즘 분류 : graph](https://github.com/DevLimK1/Algorithm/tree/master/graph)
   - [problem_graphAdjacencyMatrixBFS_C.md](https://github.com/DevLimK1/Algorithm/blob/master/graph/problem_graphAdjacencyListBFS_C.md) : Graph AdjacencyMatrix BFS(무방향그래프 인접행렬 너비 우선 탐색) 문제 [학교 알고리즘 실습문제] <br>
     [알고리즘 분류 : graph](https://github.com/DevLimK1/Algorithm/tree/master/graph)
+
 - 2020-03-03
   - baekjoon : 2557, 1000, 2558, 10950, [10951](https://github.com/DevLimK1/Algorithm/blob/master/baekjoon/10951.md)
 - 2020-03-04
-  - baekjoon :10952, [10953(포스팅)](https://github.com/DevLimK1/Algorithm/blob/master/baekjoon/boj.kr_10953.md), 11021,  11022, 11718
+
+  - baekjoon :10952, [10953(포스팅)](https://github.com/DevLimK1/Algorithm/blob/master/baekjoon/boj.kr_10953.md), 11021, 11022, 11718
+
+- 2020-03-06
+  - baekjoon :11719, 11720, 11721, 2741, 2742, 2739
+- 2020-03-07
+  - [programmers](https://github.com/DevLimK1/Algorithm/tree/master/programmers/src/level1) : level1 2016년 , level1 k번째수
 
 ---
 
@@ -58,7 +70,7 @@
 - #### [stack](https://github.com/DevLimK1/Algorithm/tree/master/stack)
 - #### [tree](https://github.com/DevLimK1/Algorithm/tree/master/tree)
 - #### [graph](https://github.com/DevLimK1/Algorithm/tree/master/graph)
-- #### 입출력 :  [baekjoon/InputOutput](https://github.com/DevLimK1/Algorithm/tree/master/baekjoon/SourceCode/src/InputOutput) 
+- #### [baekjoon](https://github.com/DevLimK1/Algorithm/tree/master/baekjoon) : [InputOutput](https://github.com/DevLimK1/Algorithm/tree/master/baekjoon/SourceCode/src/InputOutput)
 
 ---
 
@@ -67,9 +79,9 @@
 - [JAVA](#JAVA)
 - [C](#C)
 
-## `<JAVA>`
+### `<JAVA>`
 
-> ### [nextLine()을 활용한 개행문자 제거]
+> #### [nextLine()을 활용한 개행문자 제거]
 >
 > ```java
 >    Scanner sc = new Scanner(System.in);
@@ -81,7 +93,7 @@
 
 ---
 
-> ### [Split함수를 활용하여 단어를 String배열에 한글자씩 저장]
+> #### [Split함수를 활용하여 단어를 String배열에 한글자씩 저장]
 >
 > ```java
 >  String line = sc.nextLine(); //문자열 입력
@@ -97,7 +109,7 @@
 
 ---
 
-> ### [Split함수를 활용하여 단어를 String배열에 한글자씩 저장2]
+> #### [Split함수를 활용하여 단어를 String배열에 한글자씩 저장2]
 >
 > ```java
 > String word = "POWER"; //스트링 문자 POWER
@@ -114,7 +126,7 @@
 
 ---
 
-> ### [charAt 함수를 활용하여 단어를 char배열에 한글자씩 저장]
+> #### [charAt 함수를 활용하여 단어를 char배열에 한글자씩 저장]
 >
 > ```java
 > String word = "POWER"; //스트링 문자 POWER
@@ -132,7 +144,7 @@
 
 ---
 
-> ### [BufferedReader]
+> #### [BufferedReader]
 >
 > - Scanner를 통해 입력을 받을경우 Space Enter를 모두 경계로 인식해서 데이터를 입력받음
 > - BufferedReader는 Enter만 경계로 인식하고 받은 데이터가 String으로 고정됨
@@ -149,7 +161,7 @@
 >
 > 활용 예제: [problem_9012_java](https://github.com/DevLimK1/Algorithm/blob/master/stack/problem_9012_java_191106.md) , [problem_9093_java](https://github.com/DevLimK1/Algorithm/blob/master/stack/problem_9093_java.md)
 >
-> ### [BufferedWriter]
+> #### [BufferedWriter]
 >
 > > ```java
 > > BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));//선언
@@ -168,7 +180,7 @@
 
 ---
 
-> ### [String에 문자를 덧붙일 때 String + String 말고 StringBuilder를 사용하자]
+> #### [String에 문자를 덧붙일 때 String + String 말고 StringBuilder를 사용하자]
 >
 > - String에 +=을 하는 건 기존 String의 내용에 뒤의 String의 내용을 이어붙인 새로운 문자열을 만들어서 담고, 원래의 문자열은 더 참조하는 레퍼런스가 없으면 GC에 들어감
 > - 버려진 문자열이 정확히 언제 메모리에서 완전히 해제되는지는 모르겠지만, 그 전까지는 계속 메모리상에 누적되어 큰 용량을 차지함
@@ -191,7 +203,7 @@
 
 ---
 
-> ### [EOF 처리 -> Scanner , BufferedReader 클래스]
+> #### [EOF 처리 -> Scanner , BufferedReader 클래스]
 >
 > - 컴퓨팅에서, **파일 끝(End of File, EOF)** 는 데이터 소스로부터 더 이상 읽을 수 있는 데이터가 없음을 나타낸다.
 > - 주로 _입력 부분의 기준이 없는 문제_ 에서 사용
@@ -226,9 +238,66 @@
 
 ---
 
-## `<C>`
+> #### [Arrays.copyOfRange를 사용하여 범위를 지정하여 배열을 복사해보자]
+>
+> - 매개변수 배열의 **특정 범위에 해당하는 요소만을 새로운 배열로 복사하여 반환**
+>
+> - **첫 번째 매개변수**로 복사의 대상이 될 원본 배열을 전달받음
+>
+> - **두 번째 매개변수**로는 원본 배열에서 복사할 **시작 인덱스**를 전달받고
+> - **세 번째 매개변수**로는 세 번째 매개변수로 전달된 **인덱스 바로 전**까지의 배열 요소까지만 복사
+>
+> - 원본 배열과 같은 타입의 복사된 **새로운 배열을 반환**
+>
+> ```java
+> int[] arr1 = {1, 2, 3, 4, 5};
+>
+> int[] arr2 = Arrays.copyOfRange(arr1, 2, 4); // arr1 원본 배열을 index 2 ~ 3 까지 복사
+>
+> for (int i = 0; i < arr2.length; i++) {
+>
+>     System.out.print(arr2[i] + " ");
+> }
+>
+> 실행 결과
+> 3 4
+> ```
+>
+> 활용 예제:[k번째수](https://github.com/DevLimK1/Algorithm/blob/master/programmers/src/level1/lv1_Ex03_k%EB%B2%88%EC%A7%B8%EC%88%98.java)
+>
+> > 참고(Reference): http://tcpschool.com/java/java_api_arrays
 
-> ### [2차원배열 동적할당]
+---
+
+> #### [Arrays.sort() : 오름차순 정렬]
+>
+> - 전달받은 배열의 모든 요소를 **오름차순**으로 정렬
+> - 매개변수로 정렬할 배열을 전달받으며, **전달받은 원본 배열의 순서를 변경**
+>
+> ```java
+> int[] arr = {5, 3, 4, 1, 2};
+>
+> Arrays.sort(arr);
+>
+> for (int i = 0; i < arr.length; i++) {
+>
+>     System.out.print(arr[i] + " ");
+>
+> }
+>
+> 실행 결과
+> 1 2 3 4 5
+> ```
+>
+> 활용 예제:[k번째수](https://github.com/DevLimK1/Algorithm/blob/master/programmers/src/level1/lv1_Ex03_k%EB%B2%88%EC%A7%B8%EC%88%98.java)
+>
+> > 참고(Reference): http://tcpschool.com/java/java_api_arrays
+
+---
+
+### `<C>`
+
+> #### [2차원배열 동적할당]
 >
 > ```C
 > int matrix**; //2차원 배열선언
@@ -244,7 +313,7 @@
 
 ---
 
-> ### [memset함수]
+> #### [memset함수]
 >
 > - 어떤 메모리의 시작점부터 연속된 범위를 어떤 값으로(바이트 단위) 모두 지정하고 싶을 때 사용하는 함수
 >
