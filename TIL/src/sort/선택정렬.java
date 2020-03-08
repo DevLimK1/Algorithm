@@ -36,6 +36,7 @@ public class 선택정렬 {
 		int select=0;
 		int select_idx=0;
 		
+		
 		for(int i=0;i<arr.length-1;i++) {
 			boolean flag=false; //교환이 일어나는지 지표
 			select=arr[i];
