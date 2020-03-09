@@ -26,5 +26,18 @@
 | [11720 - 숫자의 합](https://www.acmicpc.net/problem/11720)   | N개의 숫자가 공백 없이 쓰여있다. 이 숫자를 모두 합해서 출력  | [Main_11720.java](https://github.com/DevLimK1/Algorithm/blob/master/baekjoon/SourceCode/src/InputOutput/Main_11720.java) | I/O  |      |
 | [11721 - 열 개씩 끊어 출력하기](https://www.acmicpc.net/problem/11721) | 알파벳 소문자와 대문자로만 이루어진 길이가 N인 단어가 주어진다. | [Main_11721.java](https://github.com/DevLimK1/Algorithm/blob/master/baekjoon/SourceCode/src/InputOutput/Main_11721.java) | I/O  |      |
 
+**2020.03.09(월)**
+
+| 문제번호(클릭 시 해당 문제페이지로 이동)                    | 문제 간단 설명                                         | 소스코드                                                     | 분류 | 비고 |
+| ----------------------------------------------------------- | ------------------------------------------------------ | ------------------------------------------------------------ | ---- | ---- |
+| [1924 - 2007년](https://www.acmicpc.net/problem/1924)       | 2007년 x월 y일은 무슨 요일일까? 이를 알아내는 프로그램 | [Main_1924.java](https://github.com/DevLimK1/Algorithm/blob/master/baekjoon/SourceCode/src/InputOutput/Main_1924.java) | I/O  |      |
+| [2438 - 별 찍기-1](https://www.acmicpc.net/problem/2438)    | 별 찍기                                                | [Main_2438.java](https://github.com/DevLimK1/Algorithm/blob/master/baekjoon/SourceCode/src/InputOutput/Main_2438.java) | I/O  |      |
+| [2439 - 별 찍기-2](https://www.acmicpc.net/problem/2439)    | 별 찍기                                                | [Main_2439.java](https://github.com/DevLimK1/Algorithm/blob/master/baekjoon/SourceCode/src/InputOutput/Main_2439.java) | I/O  |      |
+| [2440 - 별 찍기-3](https://www.acmicpc.net/problem/2440)    | 별 찍기                                                | [Main_2440.java](https://github.com/DevLimK1/Algorithm/blob/master/baekjoon/SourceCode/src/InputOutput/Main_2440.java) | I/O  |      |
+| [10818 - 최소, 최대](https://www.acmicpc.net/problem/10818) | 최솟값, 최댓값 구하기                                  | [Main_10818.java](https://github.com/DevLimK1/Algorithm/blob/master/baekjoon/SourceCode/src/InputOutput/Main_10818.java) | I/O  |      |
+| [8393 - 합](https://www.acmicpc.net/problem/8393)           | 합구하기                                               | 즉석에서 풀이                                                | I/O  |      |
+
+
+
 ---
 
