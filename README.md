@@ -132,6 +132,16 @@
 	| -------------------------------------------------------- | -------------- | ------------------------------------------------------------ | ---- | ---- |
 	| [2441 - 별찍기 -4](https://www.acmicpc.net/problem/2441) | 별 찍기        | [Main_2441.java](https://github.com/DevLimK1/Algorithm/blob/master/baekjoon/SourceCode/src/InputOutput/Main_2441.java) | I/O  |      |
 	| [2442 - 별찍기 -5](https://www.acmicpc.net/problem/2442) | 별 찍기        | [Main_2442.java](https://github.com/DevLimK1/Algorithm/blob/master/baekjoon/SourceCode/src/InputOutput/Main_2442.java) | I/O  |      |
+	
+- 2020-03-19
+
+  - baekjoon
+
+  | 문제번호(클릭 시 해당 문제페이지로 이동)                 | 문제 간단 설명 | 소스코드                                                     | 분류 | 비고 |
+  | -------------------------------------------------------- | -------------- | ------------------------------------------------------------ | ---- | ---- |
+  | [2445 - 별찍기 -8](https://www.acmicpc.net/problem/2445) | 별 찍기        | [Main_2445.java](https://github.com/DevLimK1/Algorithm/blob/master/baekjoon/SourceCode/src/InputOutput/Main_2445.java) | I/O  |      |
+
+  
 
 
 
