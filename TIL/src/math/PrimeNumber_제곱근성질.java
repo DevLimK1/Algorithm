@@ -1,5 +1,6 @@
 package math;
 
+//Do it 알고리즘 입문 자바편 p.78
 //소수-제곱근 이용
 public class PrimeNumber_제곱근성질 {
 	public static void main(String[] args) {
