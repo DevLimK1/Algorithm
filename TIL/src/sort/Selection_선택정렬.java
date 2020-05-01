@@ -30,7 +30,7 @@ n(n-1) /2 가 됩니다.
 
 즉, 시간복잡도는 O(n^2)이 됩니다.
  */
-public class 선택정렬 {
+public class Selection_선택정렬 {
 	public static void main(String[] args) {
 		int[] arr= {66, 10, 1, 99, 5};
 		int select=0;
