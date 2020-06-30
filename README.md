@@ -141,7 +141,19 @@
   | -------------------------------------------------------- | -------------- | ------------------------------------------------------------ | ---- | ---- |
   | [2445 - 별찍기 -8](https://www.acmicpc.net/problem/2445) | 별 찍기        | [Main_2445.java](https://github.com/DevLimK1/Algorithm/blob/master/baekjoon/SourceCode/src/InputOutput/Main_2445.java) | I/O  |      |
 
-  
+
+
+#### [백준(Baekjoon)](https://www.acmicpc.net/)
+
+
+
+#### [Programmers](programmers.co.kr)
+
+| 풀이날짜   | 문제 번호&제목(클릭 시 해당 문제페이지로 이동)               | 문제 간단 설명                                               | 소스코드                                                     | 분류     | 비고 |
+| ---------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | -------- | ---- |
+| **200623** | [같은 숫자는 싫어](https://programmers.co.kr/learn/courses/30/lessons/12906) | 연속적으로 나타나는 숫자는 하나만 남기고 전부 제거하기       | [같은숫자는싫어.java]([https://github.com/DevLimK1/Algorithm/blob/master/programmers/src/level1/%EA%B0%99%EC%9D%80%EC%88%AB%EC%9E%90%EB%8A%94%EC%8B%AB%EC%96%B4.java](https://github.com/DevLimK1/Algorithm/blob/master/programmers/src/level1/같은숫자는싫어.java)) | 배열     |      |
+| **200629** | [완주하지 못한 선수](https://programmers.co.kr/learn/courses/30/lessons/42576) | 마라톤 참여한 선수들 배열과 완주한 선수들 배열이 주어질 때, 완주하지 못한 선수들 이름을 출력 | [lv1_Ex01_완주하지_못한_선수.java](https://github.com/DevLimK1/Algorithm/blob/master/programmers/src/level1/lv1_Ex01_완주하지_못한_선수.java) | 해시     |      |
+| **200630** | [모의고사](https://programmers.co.kr/learn/courses/30/lessons/42840) | 1번 문제부터 마지막 문제까지의 정답이 순서대로 들은 배열이 주어졌을 때, 가장 많은 문제를 맞힌 사람이 누구인지 배열에 담아 출력 | [모의고사.java](https://github.com/DevLimK1/Algorithm/blob/master/programmers/src/level1/모의고사.java) | 완전탐색 |      |
 
 
 
@@ -154,6 +166,8 @@
 - 그래프(Graph): [Algorithm/graph](https://github.com/DevLimK1/Algorithm/tree/master/graph)
 - 입출력(InputOutput): [baekjoon/InputOutput(I/O)](https://github.com/DevLimK1/Algorithm/tree/master/baekjoon/SourceCode/src/InputOutput)
 - 정렬(Sort): [TIL/Sort](https://github.com/DevLimK1/Algorithm/tree/master/TIL/src/sort) , [programmers/k번째수](<[https://github.com/DevLimK1/Algorithm/blob/master/programmers/lv1_Ex03_k%EB%B2%88%EC%A7%B8%EC%88%98.md](https://github.com/DevLimK1/Algorithm/blob/master/programmers/lv1_Ex03_k번째수.md)>)
+- 해시(Hash): [programmers/완주하지 못한 선수](https://programmers.co.kr/learn/courses/30/lessons/42576)
+- 완전탐색 : [programmers/모의고사](https://programmers.co.kr/learn/courses/30/lessons/42840)
 
 ---
 
