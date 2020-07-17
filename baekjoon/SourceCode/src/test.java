@@ -1,48 +1,38 @@
+package SourceCode.src;
+
+import java.util.Arrays;
 import java.util.Scanner;
 
-/*
-입력)
-3 29 38 12 57 74 40 85 61
-*/
 public class test {
-	public static void main(String[] args) {
-	
-//	    for (int d = 0; d < 5; d++) {
-	         for (int f = 1; f <= 5; f++) {
-	            System.out.print(f);
-	            for (int a = 0; a < f-1; a++)
-	               System.out.print("☆");
-	            for (int a = 0; a <= 5 - f; a++)
-	               System.out.print("★");
 
-	            System.out.println();
-	         }
-//	      }
-		
-		
-		//별이 코드 리뷰
-//		Scanner scan = new Scanner(System.in);
-//		int nums = scan.nextInt();
-//		int[] count = new int[nums];
-//		for (int i = 0; i < nums; i++) {
-//			count[i] = scan.nextInt();
-//		}
-//		
-//		//밑에 부분에서 동일한 코드인 for문을 지우고 
-//		//if - else if 로 해서 간결하게 쓸 수 있음!
-//		int max = count[0];
-//		int min = count[0];
-//		for (int i = 0; i < nums; i++) {
-//			if (max < count[i]) {
-//				max = count[i];
-//			}else if(min>count[i]) {
-//				min=count[i];
-//			}
-//			
-//		}
-//		
-//		System.out.println("최대값 :" + max);
-//		System.out.println("최소값 :" + min);
+	public static int recursive(int sum,int[] numbers){
+		if(numbers.length==0){
+			System.out.println("총합은"+sum);
+			return sum;
+		}
+		else{
+			try {
+				System.out.printf("recursive(%d ",sum);
+				System.out.println(Arrays.toString(numbers));
+
+				int[] numbers2=Arrays.copyOfRange(numbers,1,numbers.length);
+				System.out.println("numbers2: "+ Arrays.toString(numbers2));
+				return recursive(sum+numbers[0], numbers2);
+			}catch (Exception e){
+			}finally{
+				System.out.println("이라고 말했어요.");
+			}
+		}
+		return 1;
+	}
+
+	public static void main(String[] args) {
+		int[] numbers={3,1,4,1,5,9};
+		int sum=0;
+
+		int result=recursive(sum,numbers);
+		System.out.println(result);
+
 
 	}
 }
